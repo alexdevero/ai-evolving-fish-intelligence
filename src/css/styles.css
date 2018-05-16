@@ -1,0 +1,25 @@
+body,
+td,
+div,
+span,
+p {
+  font-family: arial, sans-serif;
+}
+
+a {
+  color: #0000cc;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:active {
+  color: #ff0000;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
