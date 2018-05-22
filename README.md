@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/alexdevero/ai-evolving-fish-intelligence/master/src/docs/ai-evolving-fish-intelligence-icon.png" width="250" align="center">
+  <img src="https://cdn.rawgit.com/alexdevero/ai-evolving-fish-intelligence/master/docs/ai-evolving-fish-intelligence-icon.png" width="250" align="center">
   <br>
   <br>
 </p>
