@@ -43,7 +43,7 @@
   },
   "main": "main.js",
   "scripts": {
-    "start": "echo 'no start script' exit;"
+    "start": "node server.js"
   },
   "devDependencies": {
     "express": "^4.16.3"
