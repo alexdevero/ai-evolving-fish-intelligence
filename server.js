@@ -1,12 +1,15 @@
-const http = require('http')
-const fs = require('fs')
+const express = require('express')
+const path = require('path')
 
-http.createServer((request, response) => {
-  fs.readFile('./src/index.html', (err, data) => {
-    response.writeHead(200, { 'Content-Type': 'text/html' })
-    response.write(data)
-    response.end()
-  })
-}).listen(1337)
+const app = express()
+const port = process.env.PORT || 1337
 
-console.log('Server running at localhost:1337')
+app.use(express.static(path.join(__dirname, 'src')))
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'src/index.html'))
+})
+
+app.listen(port)
+
+console.log(`Server running at ${port}`)
